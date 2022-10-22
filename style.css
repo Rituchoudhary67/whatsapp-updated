@@ -1,0 +1,133 @@
+* {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+}
+.gridcontainer {
+    height: 100%;
+    width: 100%;
+    background-color: lightblue;
+    display: grid;
+    grid-template-columns: 30% 70%;
+
+}
+.contact {
+    background-color: rgb(250, 250, 250);
+    height: 10%;
+    display: grid;
+    grid-template-rows: repeat(5,1fr);
+    /* grid-row-gap: 4px;     */
+}
+.firsthead {
+    display: grid;
+    background-color: white;
+    grid-template-columns: 40% 20% 20% 20%;
+   
+}
+
+.img {
+    height: 55px;
+    width: 55px;
+    border-radius: 27px;
+    margin-top: 10px;
+    margin-left: 5px;
+}
+.head {
+    margin-top: 30px;
+    margin-left: 25px;
+    
+}
+.inputbox {
+    height: 40px;
+    width: 100%;
+    display: grid;
+    margin: 10px;
+    border-radius: 50px;
+    grid-template-columns: 90% 10%;
+
+}
+#baricon {
+    margin-top: 10px;
+    margin-left: 12px;
+}
+.whatsapp:hover {
+    background-color:rgb(221, 219, 219);
+}
+.continfo {
+    margin-top: 10px;
+    overflow: scroll;
+    height: 575px;
+    width: 100%;
+}
+.whatsapp {
+    height: 80px;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 30% 50% 20%;
+    background-color:white;
+}
+.name {
+    margin-top: 20px;
+    margin-left: -35px;
+    font-size: 1.3pc;
+}
+.time {
+    margin-top: 15px;
+}
+.message {
+    height: 700px;
+    width: 943px;
+    background-color: rgb(231, 227, 222);
+    display: grid;
+    grid-template-columns: 10% 70% 20%;
+}
+.imgmess {
+    background-color:white;
+    border-left: 1px solid gray;
+    height: 75px;
+    width: 943px
+}
+.imgvirat {
+    margin-left: 20px;
+}
+.imgname {
+    margin-left: 100px;
+    font-size: 1.3pc;
+    margin-top: -50px;
+}
+.imgicon1 {
+    margin-top: -70px;
+    margin-left: 850px;
+}
+.imgicon {
+    margin-top: -72px;
+    margin-left: 900px;
+}
+.chat {
+    background-color: greenyellow;
+    margin-top: 75px;
+    width: 940px;
+    height: 600px;
+    margin-left: -90px;
+    overflow-y: scroll;
+    display: grid;
+    grid-template-rows: auto;
+}
+/* .chatperson {
+    height: 300px;
+} */
+.person1 {
+    background-color: rgb(98, 43, 226);
+    height: 30px;
+    width: 400px;
+    margin-top: 15px;
+    margin-left: 40px;
+}
+.person2 {
+    background-color: orange;
+    height: 30px;
+    width: 400px;
+    margin-top: 30px;
+    margin-left: 500px;
+}
